@@ -207,6 +207,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/AIDS_acquired_immunodeficiency_syndrome">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Opportunistic_infections"/>
         <ont:common_name>AIDS (acquired immunodeficiency syndrome)</ont:common_name>
         <ns1:commonName>AIDS (acquired immunodeficiency syndrome)</ns1:commonName>
         <ns1:diagnosisMethod>Antibody test, p24 antigen test, PCR</ns1:diagnosisMethod>
@@ -290,6 +291,11 @@ treatment.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/African_sleeping_sickness_African_trypanosomiasis">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Lymphadenopathy"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neurological_symptoms"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Psychiatric_symptoms"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sleep_disorders"/>
         <ont:common_name>African sleeping sickness (African trypanosomiasis)</ont:common_name>
         <ns1:commonName>African sleeping sickness (African trypanosomiasis)</ns1:commonName>
         <ns1:diagnosisMethod>Identification of trypanosomes in a sample by microscopic examination</ns1:diagnosisMethod>
@@ -571,6 +577,9 @@ is performed.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Bacterial_meningitis">
         <rdf:type rdf:resource="http://example.org/ontology/dido#BacterialDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Altered_mental_status"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Neck_stiffness"/>
         <ont:common_name>Bacterial meningitis</ont:common_name>
         <ns1:commonName>Bacterial meningitis</ns1:commonName>
         <ns1:diagnosisMethod>Lumbar puncture (contraindicated if there is a mass in the brain or the intracranial 
@@ -587,6 +596,10 @@ pressure is elevated), CT or MRI</ns1:diagnosisMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Bacterial_pneumonia">
         <rdf:type rdf:resource="http://example.org/ontology/dido#BacterialDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Chest_pain"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cough"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Runny_nose"/>
         <ont:common_name>Bacterial pneumonia</ont:common_name>
         <ns1:commonName>Bacterial pneumonia</ns1:commonName>
         <ns1:diagnosisMethod>Sputum Gram stain and culture, Chest radiography</ns1:diagnosisMethod>
@@ -602,6 +615,7 @@ pressure is elevated), CT or MRI</ns1:diagnosisMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Bacterial_vaginosis">
         <rdf:type rdf:resource="http://example.org/ontology/dido#BacterialDisease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Increased_fishy_smelling_vaginal_discharge"/>
         <ont:common_name>Bacterial vaginosis</ont:common_name>
         <ns1:commonName>Bacterial vaginosis</ns1:commonName>
         <ns1:diagnosisMethod>Gram stain and whiff test</ns1:diagnosisMethod>
@@ -896,6 +910,11 @@ gentamicin</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Bubonic_plague">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Chills"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Malaise"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Muscle_ache"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Seizures"/>
         <ont:common_name>Bubonic plague</ont:common_name>
         <ns1:commonName>Bubonic plague</ns1:commonName>
         <ns1:diagnosisMethod>Culture</ns1:diagnosisMethod>
@@ -1041,6 +1060,7 @@ of choice during the acute phase of Carrion&apos;s disease.</ns1:treatmentMethod
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Cellulitis">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#An_area_that_is_red,_hot,_and_painful"/>
         <ont:common_name>Cellulitis</ont:common_name>
         <ns1:commonName>Cellulitis</ns1:commonName>
         <ns1:diagnosisMethod>By history and physical examination</ns1:diagnosisMethod>
@@ -1057,6 +1077,12 @@ cephalosporin</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Chagas_disease_American_trypanosomiasis">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enlarged_spleen"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Headache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Malaise"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Enlarged_liver"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Enlargement_of_lymph_nodes"/>
         <ont:common_name>Chagas disease (American trypanosomiasis)</ont:common_name>
         <ns1:commonName>Chagas disease (American trypanosomiasis)</ns1:commonName>
         <ns1:diagnosisMethod>Microscopic examination of fresh anticoagulated blood, or its buffy coat, 
@@ -1165,6 +1191,8 @@ In men, painful or burning sensation when urinating</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Cholera">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Diarrhoea"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Vomiting"/>
         <ont:common_name>Cholera</ont:common_name>
         <ns1:commonName>Cholera</ns1:commonName>
         <ns1:diagnosisMethod>A rapid dipstick test is available.</ns1:diagnosisMethod>
@@ -1301,6 +1329,10 @@ distinctive foul odor</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Coronavirus_disease_2019_COVID-19">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cough"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Loss_of_smell"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Loss_of_taste"/>
         <ont:common_name>Coronavirus disease 2019 (COVID-19)</ont:common_name>
         <ns1:commonName>Coronavirus disease 2019 (COVID-19)</ns1:commonName>
         <ns1:diagnosisMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#double">NaN</ns1:diagnosisMethod>
@@ -1316,7 +1348,12 @@ distinctive foul odor</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Coxsackie_B_virus_infection">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
-        <ont:causes rdf:resource="http://example.org/resource/Coxsackie_B_virus_infection"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fatigue"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Gastrointestinal_symptoms"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Headache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Muscle_ache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sore_throat"/>
         <ont:common_name>Coxsackie B virus infection</ont:common_name>
         <ns1:commonName>Coxsackie B virus infection</ns1:commonName>
         <ns1:diagnosisMethod>Enterovirus infection is diagnosed mainly via serological tests such as 
@@ -1473,6 +1510,11 @@ well as chest and muscle pain</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Dengue_fever">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Headache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Joint_pain"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Muscle_ache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Rash"/>
         <ont:common_name>Dengue fever</ont:common_name>
         <ns1:commonName>Dengue fever</ns1:commonName>
         <ns1:diagnosisMethod>Clinical diagnosis</ns1:diagnosisMethod>
@@ -1638,6 +1680,13 @@ foul-smelling and bloodstained nasal discharge; and lymphadenopathy</ns1:signsAn
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Eastern_equine_encephalitis_EEE">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Headache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Muscle_ache"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Altered_mental_status"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Meningeal_irritation"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Photophobia"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Seizures"/>
         <ont:common_name>Eastern equine encephalitis (EEE)</ont:common_name>
         <ns1:commonName>Eastern equine encephalitis (EEE)</ns1:commonName>
         <ns1:diagnosisMethod>Blood tests</ns1:diagnosisMethod>
@@ -1655,6 +1704,8 @@ symptoms)</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Ebolahemorrhagic_fever">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Flu"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Severe_internal_and_external_bleeding"/>
         <ont:common_name>Ebolahemorrhagic fever</ont:common_name>
         <ns1:commonName>Ebolahemorrhagic fever</ns1:commonName>
         <ns1:diagnosisMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#double">NaN</ns1:diagnosisMethod>
@@ -1845,6 +1896,9 @@ symptoms)</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Fatal_familial_insomnia_FFI">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Dementia"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Hallucinations"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Severe_insomnia"/>
         <ont:common_name>Fatal familial insomnia (FFI)</ont:common_name>
         <ns1:commonName>Fatal familial insomnia (FFI)</ns1:commonName>
         <ns1:diagnosisMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#double">NaN</ns1:diagnosisMethod>
@@ -1933,6 +1987,11 @@ symptoms)</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Gas_gangrene_Clostridial_myonecrosis">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Discoloration"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Foul_smelling"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Large_black_blisters"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Numbness"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Pain"/>
         <ont:common_name>Gas gangrene (Clostridial myonecrosis)</ont:common_name>
         <ns1:commonName>Gas gangrene (Clostridial myonecrosis)</ns1:commonName>
         <ns1:diagnosisMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#double">NaN</ns1:diagnosisMethod>
@@ -2059,6 +2118,10 @@ secnidazole or ornidazole.</ns1:treatmentMethod>
     <owl:NamedIndividual rdf:about="http://example.org/resource/Group_A_streptococcal_infection">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
         <ont:exhibits rdf:resource="http://example.org/resource/Cellulitis"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Erysipelas"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Impetigo"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Strep_pharyngitis"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Strep_throat"/>
         <ont:common_name>Group A streptococcal infection</ont:common_name>
         <ns1:commonName>Group A streptococcal infection</ns1:commonName>
         <ns1:diagnosisMethod>Culture</ns1:diagnosisMethod>
@@ -2128,6 +2191,9 @@ third generation, or fluoroquinolones are preferred.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Hand_foot_and_mouth_disease_HFMD">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Rash"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Small_blisters"/>
         <ont:common_name>Hand, foot and mouth disease (HFMD)</ont:common_name>
         <ns1:commonName>Hand, foot and mouth disease (HFMD)</ns1:commonName>
         <ns1:diagnosisMethod>A diagnosis usually can be made by the presenting signs and symptoms alone. 
@@ -2221,6 +2287,17 @@ transfusions, and plasmapheresis.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Hemorrhagic_fever_with_renal_syndrome_HFRS">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Abdominal_pain"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Chills"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Diarrhoea"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Headache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Malaise"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Nausea"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Respiratory_symptoms"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Back_pain"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Redness_of_cheeks_and_bones"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sweaty_palms"/>
         <ont:common_name>Hemorrhagic fever with renal syndrome (HFRS)</ont:common_name>
         <ns1:commonName>Hemorrhagic fever with renal syndrome (HFRS)</ns1:commonName>
         <ns1:diagnosisMethod>HFRS is difficult to diagnose on clinical grounds alone and serological 
@@ -2277,6 +2354,13 @@ renal dialysis.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Hepatitis_A">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Abdominal_pain"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Diarrhoea"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Jaundice"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Nausea"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Vomiting"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Dark_urine"/>
         <ont:common_name>Hepatitis A</ont:common_name>
         <ns1:commonName>Hepatitis A</ns1:commonName>
         <ns1:diagnosisMethod>Blood tests</ns1:diagnosisMethod>
@@ -2292,6 +2376,10 @@ renal dialysis.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Hepatitis_B">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Abdominal_pain"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Tiredness"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Dark_urine"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Yellowish_skin"/>
         <ont:common_name>Hepatitis B</ont:common_name>
         <ns1:commonName>Hepatitis B</ns1:commonName>
         <ns1:diagnosisMethod>Blood tests</ns1:diagnosisMethod>
@@ -2322,6 +2410,9 @@ renal dialysis.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Hepatitis_D">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Nausea"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Tiredness"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Vomiting"/>
         <ont:common_name>Hepatitis D</ont:common_name>
         <ns1:commonName>Hepatitis D</ns1:commonName>
         <ns1:diagnosisMethod>Immunoglobulin G</ns1:diagnosisMethod>
@@ -2337,6 +2428,8 @@ renal dialysis.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Hepatitis_E">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Jaundice"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Nausea"/>
         <ont:common_name>Hepatitis E</ont:common_name>
         <ns1:commonName>Hepatitis E</ns1:commonName>
         <ns1:diagnosisMethod>Hepatitis E virus (HEV)</ns1:diagnosisMethod>
@@ -2352,6 +2445,7 @@ renal dialysis.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Herpes_simplex">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Blisters_on_genitalia_and_lips"/>
         <ont:common_name>Herpes simplex</ont:common_name>
         <ns1:commonName>Herpes simplex</ns1:commonName>
         <ns1:diagnosisMethod>Based on symptoms, PCR, viral culture</ns1:diagnosisMethod>
@@ -2525,6 +2619,7 @@ also be examined for intracytoplasmic inclusions called morulae.</ns1:diagnosisM
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Human_papillomavirus_HPV_infection">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Warts"/>
         <ont:common_name>Human papillomavirus (HPV) infection</ont:common_name>
         <ns1:commonName>Human papillomavirus (HPV) infection</ns1:commonName>
         <ns1:diagnosisMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#double">NaN</ns1:diagnosisMethod>
@@ -2576,6 +2671,15 @@ and diarrhea</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Influenza_flu">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Chills"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cough"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fatigue"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Headache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Loss_of_appetite"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Muscle_ache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Respiratory_symptoms"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Runny_nose"/>
         <ont:common_name>Influenza (flu)</ont:common_name>
         <ns1:commonName>Influenza (flu)</ns1:commonName>
         <ns1:diagnosisMethod>Diagnostic methods that can identify influenza include viral cultures, 
@@ -2626,6 +2730,13 @@ which can last for weeks and result in malabsorption and weight loss</ns1:signsA
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Japanese_encephalitis">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Headache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Malaise"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cachexia"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Convulsions"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Hemiparesis"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Mental_retardation"/>
         <ont:common_name>Japanese encephalitis</ont:common_name>
         <ns1:commonName>Japanese encephalitis</ns1:commonName>
         <ns1:diagnosisMethod>Available tests detecting JE virus-specific IgM antibodies in serum and/or cerebrospinal 
@@ -2644,6 +2755,11 @@ retardation</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Kawasaki_disease">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Diarrhoea"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Rash"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sore_throat"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Enlargement_of_lymph_nodes"/>
         <ont:common_name>Kawasaki disease</ont:common_name>
         <ns1:commonName>Kawasaki disease</ns1:commonName>
         <ns1:diagnosisMethod>Based on symptoms, ultrasound of the heart</ns1:diagnosisMethod>
@@ -2693,6 +2809,9 @@ if steroid eye drops are useful or not</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Kuru">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Body_tremors"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Gradual_loss_of_coordination"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Random_outbursts_of_laughter"/>
         <ont:common_name>Kuru</ont:common_name>
         <ns1:commonName>Kuru</ns1:commonName>
         <ns1:diagnosisMethod>Autopsy</ns1:diagnosisMethod>
@@ -2708,6 +2827,7 @@ if steroid eye drops are useful or not</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Lassa_fever">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Hearing_loss"/>
         <ont:common_name>Lassa fever</ont:common_name>
         <ns1:commonName>Lassa fever</ns1:commonName>
         <ns1:diagnosisMethod>Laboratory testing</ns1:diagnosisMethod>
@@ -2875,6 +2995,8 @@ tiredness</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Lymphatic_filariasis_Elephantiasis">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Severe_swelling_of_extremities"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Thickened_skin"/>
         <ont:common_name>Lymphatic filariasis (Elephantiasis)</ont:common_name>
         <ns1:commonName>Lymphatic filariasis (Elephantiasis)</ns1:commonName>
         <ns1:diagnosisMethod>Microscopic examination of blood</ns1:diagnosisMethod>
@@ -2890,6 +3012,13 @@ tiredness</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Lymphocytic_choriomeningitis">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Headache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Loss_of_appetite"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Malaise"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Muscle_ache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Nausea"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Vomiting"/>
         <ont:common_name>Lymphocytic choriomeningitis</ont:common_name>
         <ns1:commonName>Lymphocytic choriomeningitis</ns1:commonName>
         <ns1:diagnosisMethod>Blood test</ns1:diagnosisMethod>
@@ -2932,6 +3061,9 @@ hemoglobin in the urine, retinal damage, and convulsions</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Marburghemorrhagic_fever_MHF">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Myalgia"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Weakness"/>
         <ont:common_name>Marburghemorrhagic fever (MHF)</ont:common_name>
         <ns1:commonName>Marburghemorrhagic fever (MHF)</ns1:commonName>
         <ns1:diagnosisMethod>Blood test</ns1:diagnosisMethod>
@@ -2970,6 +3102,11 @@ hemoglobin in the urine, retinal damage, and convulsions</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Measles">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cough"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Rash"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Runny_nose"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Inflamed_eyes"/>
         <ont:common_name>Measles</ont:common_name>
         <ns1:commonName>Measles</ns1:commonName>
         <ns1:diagnosisMethod>Typically, clinical diagnosis begins with the onset of fever and malaise 
@@ -3006,6 +3143,9 @@ emergence of cough, coryza, and conjunctivitis that worsen in severity over
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Meningitis">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Headache"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Neck_stiffness"/>
         <ont:common_name>Meningitis</ont:common_name>
         <ns1:commonName>Meningitis</ns1:commonName>
         <ns1:diagnosisMethod>Lumbar puncture</ns1:diagnosisMethod>
@@ -3080,6 +3220,9 @@ chloramphenicol are also effective.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Middle_East_respiratory_syndrome_MERS">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cough"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Shortness_of_breath"/>
         <ont:common_name>Middle East respiratory syndrome (MERS)</ont:common_name>
         <ns1:commonName>Middle East respiratory syndrome (MERS)</ns1:commonName>
         <ns1:diagnosisMethod>rRT-PCR testing</ns1:diagnosisMethod>
@@ -3095,6 +3238,7 @@ chloramphenicol are also effective.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Molluscum_contagiosum_MC">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Pink_lesions_with_a_dimple_in_the_center"/>
         <ont:common_name>Molluscum contagiosum (MC)</ont:common_name>
         <ns1:commonName>Molluscum contagiosum (MC)</ns1:commonName>
         <ns1:diagnosisMethod>Based on appearance</ns1:diagnosisMethod>
@@ -3110,6 +3254,12 @@ chloramphenicol are also effective.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Monkeypox">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Headache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Muscle_ache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Rash"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Enlargement_of_lymph_nodes"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Shivering"/>
         <ont:common_name>Monkeypox</ont:common_name>
         <ns1:commonName>Monkeypox</ns1:commonName>
         <ns1:diagnosisMethod>Testing for viral DNA</ns1:diagnosisMethod>
@@ -3126,6 +3276,12 @@ nodes</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Mumps">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Headache"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Loss_of_appetite"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Malaise"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Muscle_ache"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Parotitis"/>
         <ont:common_name>Mumps</ont:common_name>
         <ns1:commonName>Mumps</ns1:commonName>
         <ns1:diagnosisMethod>Antibody testing, viral cultures, and reverse transcription polymerase 
@@ -3209,6 +3365,7 @@ muscle pain, and loss of appetite</ns1:signsAndSymptoms>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Myiasis">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Boil_with_larva_inside"/>
         <ont:common_name>Myiasis</ont:common_name>
         <ns1:commonName>Myiasis</ns1:commonName>
         <ns1:diagnosisMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#double">NaN</ns1:diagnosisMethod>
@@ -4849,6 +5006,8 @@ mentagrophytes*</ns1:infectiousAgent>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Candidiasis_Moniliasis;_Thrush">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Itching"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Redness"/>
         <ont:common_name>Candidiasis (Moniliasis; Thrush)</ont:common_name>
         <ns1:commonName>Candidiasis (Moniliasis; Thrush)</ns1:commonName>
         <ns1:diagnosisMethod>In oral candidiasis, simply inspecting the person&apos;s mouth for white patches 
@@ -4905,6 +5064,9 @@ TWAR)</ns1:commonName>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Creutzfeldt–Jakob_disease_CJD">
         <rdf:type rdf:resource="http://example.org/ontology/dido#Disease"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Behavioral_changes"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Gradual_loss_of_coordination"/>
+        <ont:exhibits rdf:resource="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Memory_loss"/>
         <ont:common_name>Creutzfeldt–Jakob disease (CJD)</ont:common_name>
         <ns1:commonName>Creutzfeldt–Jakob disease (CJD)</ns1:commonName>
         <ns1:diagnosisMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#double">NaN</ns1:diagnosisMethod>
@@ -4920,6 +5082,9 @@ TWAR)</ns1:commonName>
 
     <owl:NamedIndividual rdf:about="http://example.org/resource/Epstein–Barr_virus_infectious_mononucleosis_Mono">
         <rdf:type rdf:resource="http://example.org/ontology/dido#ViralDisease"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Fever"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sore_throat"/>
+        <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Swollen_glands"/>
         <ont:common_name>Epstein–Barr virus infectious mononucleosis Mono</ont:common_name>
         <ns1:commonName>Epstein–Barr virus infectious mononucleosis (Mono)</ns1:commonName>
         <ns1:diagnosisMethod>Diagnostic modalities for infectious mononucleosis include: 
@@ -5726,6 +5891,7 @@ supportive treatments are used.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Coxsackie_B_virus">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Infectious_Agent"/>
+        <ont:causes rdf:resource="http://example.org/resource/Coxsackie_B_virus_infection"/>
     </owl:NamedIndividual>
     
 
@@ -8095,9 +8261,57 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Back_pain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Back_pain">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Bacteremia -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Bacteremia">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Behavioral_changes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Behavioral_changes">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Blisters_on_genitalia_and_lips -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Blisters_on_genitalia_and_lips">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Body_tremors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Body_tremors">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Boil_with_larva_inside -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Boil_with_larva_inside">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cachexia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cachexia">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
     </owl:NamedIndividual>
     
@@ -8111,9 +8325,25 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Dark_urine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Dark_urine">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Deformation_of_extremities -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Deformation_of_extremities">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Dementia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Dementia">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
     </owl:NamedIndividual>
     
@@ -8138,6 +8368,14 @@ supportive treatments are used.</ns1:treatmentMethod>
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Enlarged_liver -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Enlarged_liver">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Enlargement_of_lymph_nodes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Enlargement_of_lymph_nodes">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
     </owl:NamedIndividual>
     
@@ -8191,6 +8429,38 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Gradual_loss_of_coordination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Gradual_loss_of_coordination">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Hallucinations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Hallucinations">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Hearing_loss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Hearing_loss">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Hemiparesis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Hemiparesis">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Hemoglobin_in_the_urine -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Hemoglobin_in_the_urine">
@@ -8207,9 +8477,57 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Increased_fishy_smelling_vaginal_discharge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Increased_fishy_smelling_vaginal_discharge">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Inflamed_eyes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Inflamed_eyes">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Large_black_blisters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Large_black_blisters">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Loss_of_smell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Loss_of_smell">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Loss_of_taste -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Loss_of_taste">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Low_red_blood_cells -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Low_red_blood_cells">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Lymphadenopathy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Lymphadenopathy">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
     </owl:NamedIndividual>
     
@@ -8223,6 +8541,54 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Memory_loss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Memory_loss">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Meningeal_irritation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Meningeal_irritation">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Mental_retardation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Mental_retardation">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Mnetal_retardation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Mnetal_retardation">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Neck_stiffness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Neck_stiffness">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Neurological_symptoms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Neurological_symptoms">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Nits_attached_to_hair -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Nits_attached_to_hair">
@@ -8231,9 +8597,73 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Opportunistic_infections -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Opportunistic_infections">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Parotitis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Parotitis">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Photophobia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Photophobia">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Pink_lesions_with_a_dimple_in_the_center -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Pink_lesions_with_a_dimple_in_the_center">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Psychiatric_symptoms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Psychiatric_symptoms">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Purpura -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Purpura">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Random_outbursts_of_laughter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Random_outbursts_of_laughter">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Redness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Redness">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Redness_of_cheeks_and_bones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Redness_of_cheeks_and_bones">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
     </owl:NamedIndividual>
     
@@ -8250,6 +8680,30 @@ supportive treatments are used.</ns1:treatmentMethod>
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Seizures -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Seizures">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Severe_insomnia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Severe_insomnia">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Severe_internal_and_external_bleeding -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Severe_internal_and_external_bleeding">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Severe_swelling_of_extremities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Severe_swelling_of_extremities">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
     </owl:NamedIndividual>
     
@@ -8279,6 +8733,22 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sleep_disorders -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sleep_disorders">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Small_blisters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Small_blisters">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Small_nodules -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Small_nodules">
@@ -8295,9 +8765,41 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Strep_pharyngitis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Strep_pharyngitis">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Strep_throat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Strep_throat">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sweaty_palms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sweaty_palms">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Swollen_bump -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Swollen_bump">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Thickened_skin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Thickened_skin">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
     </owl:NamedIndividual>
     
@@ -8314,6 +8816,22 @@ supportive treatments are used.</ns1:treatmentMethod>
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Tooth_pain -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Tooth_pain">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Warts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Warts">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Yellowish_skin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Yellowish_skin">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
     </owl:NamedIndividual>
 </rdf:RDF>
