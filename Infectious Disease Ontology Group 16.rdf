@@ -2604,6 +2604,7 @@ also be examined for intracytoplasmic inclusions called morulae.</ns1:diagnosisM
         <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Malaise"/>
         <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Muscle_ache"/>
         <ont:exhibits rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Myalgia"/>
+        <ont:treats rdf:resource="http://example.org/resource/Amoebiasis"/>
         <ont:common_name>Human monocytic ehrlichiosis</ont:common_name>
         <ns1:commonName>Human monocytic ehrlichiosis</ns1:commonName>
         <ns1:diagnosisMethod>PCR</ns1:diagnosisMethod>
@@ -8253,10 +8254,202 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Acetaminophen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Acetaminophen">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Influenza_flu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Aciclovir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Aciclovir">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chickenpox"/>
+        <ont:treats rdf:resource="http://example.org/resource/Herpes_simplex"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Albendazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Albendazole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Angiostrongyliasis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Anisakiasis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Lymphatic_filariasis_Elephantiasis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Microsporidiosis"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Altered_mental_status -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Altered_mental_status">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Aminoglycosides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Aminoglycosides">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Bubonic_plague"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Aminoglycosidesstreptomycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Aminoglycosidesstreptomycin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Brucellosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Amoebicidal_tissue-active__agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Amoebicidal_tissue-active__agent">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Amoebiasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Amoxicillin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Amoxicillin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Lyme_disease_Lyme_borreliosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Amphotericin__B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Amphotericin__B">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Histoplasmosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ampicillin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ampicillin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Group_B_streptococcal_infection"/>
+        <ont:treats rdf:resource="http://example.org/resource/Haemophilus_influenzae_infection"/>
+        <ont:treats rdf:resource="http://example.org/resource/Listeriosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antibacterial_therapy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antibacterial_therapy">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Keratitis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antibiotics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antibiotics">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Bacterial_meningitis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Bacterial_pneumonia"/>
+        <ont:treats rdf:resource="http://example.org/resource/Bartonellosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Meningitis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Anticonvulsants -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Anticonvulsants">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Eastern_equine_encephalitis_EEE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antifungal_medications -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antifungal_medications">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Histoplasmosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Keratitis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Candidiasis_Moniliasis;_Thrush"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antifungal_shampoos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antifungal_shampoos">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Black_piedra"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antimalarial_medication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antimalarial_medication">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Malaria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antivirals -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Antivirals">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hepatitis_A"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hepatitis_B"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hepatitis_C"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hepatitis_D"/>
+        <ont:treats rdf:resource="http://example.org/resource/Keratitis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Meningitis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Monkeypox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Aspirin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Aspirin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Kawasaki_disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Atovaquone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Atovaquone">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Babesiosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Azithromycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Azithromycin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Babesiosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Cat-scratch_disease"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chancroid"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chlamydia"/>
+        <ont:treats rdf:resource="http://example.org/resource/Gonorrhea"/>
     </owl:NamedIndividual>
     
 
@@ -8285,6 +8478,24 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Benznidazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Benznidazole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chagas_disease_American_trypanosomiasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Benzylpenicillin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Benzylpenicillin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Meningococcal_disease"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Blisters_on_genitalia_and_lips -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Blisters_on_genitalia_and_lips">
@@ -8309,6 +8520,15 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Botulism_antitoxin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Botulism_antitoxin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Botulism_and_Infant_botulism"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cachexia -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cachexia">
@@ -8317,10 +8537,165 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cefotaxime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cefotaxime">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Haemophilus_influenzae_infection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ceftazidime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ceftazidime">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Melioidosis_Whitmores_disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ceftriaxone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ceftriaxone">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Gonorrhea"/>
+        <ont:treats rdf:resource="http://example.org/resource/Haemophilus_influenzae_infection"/>
+        <ont:treats rdf:resource="http://example.org/resource/Leptospirosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Lyme_disease_Lyme_borreliosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cefuroxime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cefuroxime">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Lyme_disease_Lyme_borreliosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cephalosporins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cephalosporins">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Arcanobacterium_haemolyticum_infection"/>
+        <ont:treats rdf:resource="http://example.org/resource/Ascariasis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Haemophilus_influenzae_infection"/>
+        <ont:treats rdf:resource="http://example.org/resource/Meningococcal_disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Chemotherapy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Chemotherapy">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Echinococcosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Chloramphenicol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Chloramphenicol">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Carrions_disease"/>
+        <ont:treats rdf:resource="http://example.org/resource/Meningococcal_disease"/>
+        <ont:treats rdf:resource="http://example.org/resource/Murine_typhus_Endemic_typhus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cidofovir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cidofovir">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Cytomegalovirus_infection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cimetidine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Cimetidine">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Molluscum_contagiosum_MC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ciprofloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ciprofloxacin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Anthrax"/>
+        <ont:treats rdf:resource="http://example.org/resource/Carrions_disease"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chancroid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Clarithromycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Clarithromycin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Buruli_ulcer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Clindamycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Clindamycin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Arcanobacterium_haemolyticum_infection"/>
+        <ont:treats rdf:resource="http://example.org/resource/Bacterial_vaginosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Clofazimine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Clofazimine">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Leprosy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Co-trimoxazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Co-trimoxazole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Melioidosis_Whitmores_disease"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Convulsions -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Convulsions">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Corticosteroids -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Corticosteroids">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Eastern_equine_encephalitis_EEE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Dapsone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Dapsone">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Leprosy"/>
     </owl:NamedIndividual>
     
 
@@ -8349,6 +8724,15 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Diethylcarbamazine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Diethylcarbamazine">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Lymphatic_filariasis_Elephantiasis"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Difficulty_eating -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Difficulty_eating">
@@ -8361,6 +8745,22 @@ supportive treatments are used.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Discoloration">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Doxycycline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Doxycycline">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Actinomycosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Anthrax"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chlamydia"/>
+        <ont:treats rdf:resource="http://example.org/resource/Human_ewingii_ehrlichiosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Human_granulocytic_anaplasmosis_HGA"/>
+        <ont:treats rdf:resource="http://example.org/resource/Human_monocytic_ehrlichiosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Leptospirosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Lyme_disease_Lyme_borreliosis"/>
     </owl:NamedIndividual>
     
 
@@ -8389,10 +8789,80 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Erythromycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Erythromycin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Anthrax"/>
+        <ont:treats rdf:resource="http://example.org/resource/Arcanobacterium_haemolyticum_infection"/>
+        <ont:treats rdf:resource="http://example.org/resource/Campylobacteriosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chancroid"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chlamydia"/>
+        <ont:treats rdf:resource="http://example.org/resource/Diphtheria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Exchange_transfusion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Exchange_transfusion">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Babesiosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Fexinidazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Fexinidazole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/African_sleeping_sickness_African_trypanosomiasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Fidaxomicin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Fidaxomicin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Clostridium_difficile_colitis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#First-generation__cephalosporin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#First-generation__cephalosporin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Cellulitis"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Flu -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Flu">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Fluoroquinoloneciprofloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Fluoroquinoloneciprofloxacin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Bubonic_plague"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Fluoroquinolones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Fluoroquinolones">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Anthrax"/>
+        <ont:treats rdf:resource="http://example.org/resource/Carrions_disease"/>
+        <ont:treats rdf:resource="http://example.org/resource/Haemophilus_influenzae_infection"/>
     </owl:NamedIndividual>
     
 
@@ -8425,6 +8895,43 @@ supportive treatments are used.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Formation_of_pus">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Foscarnet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Foscarnet">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Cytomegalovirus_infection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Fumagillin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Fumagillin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Microsporidiosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ganciclovir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ganciclovir">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Cytomegalovirus_infection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Gentamicin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Gentamicin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Brucellosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Listeriosis"/>
     </owl:NamedIndividual>
     
 
@@ -8469,6 +8976,33 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ibuprofen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ibuprofen">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Influenza_flu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Imidocarb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Imidocarb">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Anaplasmosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Immunoglobulin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Immunoglobulin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Kawasaki_disease"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Impetigo -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Impetigo">
@@ -8493,10 +9027,103 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#IntravenousAmphotericin_B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#IntravenousAmphotericin_B">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Cryptococcosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Intravenous_antibiotics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Intravenous_antibiotics">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Anthrax"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Iodoquinol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Iodoquinol">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Balantidiasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Itraconazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Itraconazole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Blastomycosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chromoblastomycosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ketoconazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ketoconazole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Blastomycosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ketolides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ketolides">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Legionellosis_Legionnaires_disease"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Large_black_blisters -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Large_black_blisters">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Levamisole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Levamisole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Ascariasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Levofloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Levofloxacin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chlamydia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Liposomal_amphotericin_B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Liposomal_amphotericin_B">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Aspergillosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Leishmaniasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Liver_transplantation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Liver_transplantation">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hepatitis_A"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hepatitis_B"/>
     </owl:NamedIndividual>
     
 
@@ -8525,6 +9152,15 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Luminal_cysticidal_agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Luminal_cysticidal_agent">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Amoebiasis"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Lymphadenopathy -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Lymphadenopathy">
@@ -8533,10 +9169,28 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Macrolides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Macrolides">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Legionellosis_Legionnaires_disease"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Malabsorption -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Malabsorption">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Mebendazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Mebendazole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Ascariasis"/>
     </owl:NamedIndividual>
     
 
@@ -8565,6 +9219,26 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Meropenem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Meropenem">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Melioidosis_Whitmores_disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Metronidazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Metronidazole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Bacterial_vaginosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Balantidiasis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Diphtheria"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Mnetal_retardation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Mnetal_retardation">
@@ -8589,10 +9263,64 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Niclosamide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Niclosamide">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hymenolepiasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Nifurtimox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Nifurtimox">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chagas_disease_American_trypanosomiasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Nitroimidazole_medication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Nitroimidazole_medication">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Giardiasis"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Nits_attached_to_hair -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Nits_attached_to_hair">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Non-nucleoside_reverse_transcriptase_inhibitor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Non-nucleoside_reverse_transcriptase_inhibitor">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/AIDS_acquired_immunodeficiency_syndrome"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Nucleoside_analog_reverse_transcriptase_inhibitors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Nucleoside_analog_reverse_transcriptase_inhibitors">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/AIDS_acquired_immunodeficiency_syndrome"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ofloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ofloxacin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chlamydia"/>
     </owl:NamedIndividual>
     
 
@@ -8605,10 +9333,86 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Oral_antibiotics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Oral_antibiotics">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Anthrax"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Oral_itraconazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Oral_itraconazole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Histoplasmosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Oral_rehydration_therapy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Oral_rehydration_therapy">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Cholera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Paracetamol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Paracetamol">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Herpes_simplex"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Parotitis -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Parotitis">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Pegylated_interferon_alpha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Pegylated_interferon_alpha">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hepatitis_D"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Penicillin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Penicillin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Actinomycosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Anthrax"/>
+        <ont:treats rdf:resource="http://example.org/resource/Group_A_streptococcal_infection"/>
+        <ont:treats rdf:resource="http://example.org/resource/Group_B_streptococcal_infection"/>
+        <ont:treats rdf:resource="http://example.org/resource/Leptospirosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Penicillinase-resistant_semisynthetic_penicillin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Penicillinase-resistant_semisynthetic_penicillin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Cellulitis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Pentamidine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Pentamidine">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/African_sleeping_sickness_African_trypanosomiasis"/>
     </owl:NamedIndividual>
     
 
@@ -8629,6 +9433,34 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Podophyllotoxin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Podophyllotoxin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Molluscum_contagiosum_MC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Praziquantel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Praziquantel">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hymenolepiasis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Metagonimiasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Procaine_penicillin_G -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Procaine_penicillin_G">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Diphtheria"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Psychiatric_symptoms -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Psychiatric_symptoms">
@@ -8641,6 +9473,24 @@ supportive treatments are used.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Purpura">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Pyrantel_pamoate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Pyrantel_pamoate">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Ascariasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Quinolones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Quinolones">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Legionellosis_Legionnaires_disease"/>
     </owl:NamedIndividual>
     
 
@@ -8669,10 +9519,39 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Renal_dialysis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Renal_dialysis">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hemorrhagic_fever_with_renal_syndrome_HFRS"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Retinal_damage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Retinal_damage">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ribavirin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Ribavirin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hepatitis_E"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Rifampicin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Rifampicin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Brucellosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Buruli_ulcer"/>
+        <ont:treats rdf:resource="http://example.org/resource/Leprosy"/>
     </owl:NamedIndividual>
     
 
@@ -8757,6 +9636,15 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Steroids -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Steroids">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Meningitis"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Stiff_neck -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Stiff_neck">
@@ -8781,6 +9669,70 @@ supportive treatments are used.</ns1:treatmentMethod>
     
 
 
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sulbactam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sulbactam">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Haemophilus_influenzae_infection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sulfonamides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sulfonamides">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Actinomycosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Supportive_care -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Supportive_care">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Acinetobacter_infections"/>
+        <ont:treats rdf:resource="http://example.org/resource/Astrovirus_infection"/>
+        <ont:treats rdf:resource="http://example.org/resource/Botulism_and_Infant_botulism"/>
+        <ont:treats rdf:resource="http://example.org/resource/Chikungunya"/>
+        <ont:treats rdf:resource="http://example.org/resource/Dengue_fever"/>
+        <ont:treats rdf:resource="http://example.org/resource/Eastern_equine_encephalitis_EEE"/>
+        <ont:treats rdf:resource="http://example.org/resource/Food_poisoning_by_Clostridium_perfringens"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hemolytic-uremic_syndrome_HUS"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hemorrhagic_fever_with_renal_syndrome_HFRS"/>
+        <ont:treats rdf:resource="http://example.org/resource/Hepatitis_A"/>
+        <ont:treats rdf:resource="http://example.org/resource/Japanese_encephalitis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Lassa_fever"/>
+        <ont:treats rdf:resource="http://example.org/resource/Lymphocytic_choriomeningitis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Marburghemorrhagic_fever_MHF"/>
+        <ont:treats rdf:resource="http://example.org/resource/Measles"/>
+        <ont:treats rdf:resource="http://example.org/resource/Middle_East_respiratory_syndrome_MERS"/>
+        <ont:treats rdf:resource="http://example.org/resource/Monkeypox"/>
+        <ont:treats rdf:resource="http://example.org/resource/Mumps"/>
+        <ont:treats rdf:resource="http://example.org/resource/Common_cold_Acute_viral_rhinopharyngitis;_Acute_coryza"/>
+        <ont:treats rdf:resource="http://example.org/resource/Epstein–Barr_virus_infectious_mononucleosis_Mono"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Suramin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Suramin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/African_sleeping_sickness_African_trypanosomiasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Surgical_removal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Surgical_removal">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Echinococcosis"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sweaty_palms -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Sweaty_palms">
@@ -8793,6 +9745,45 @@ supportive treatments are used.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Swollen_bump">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Symptomatic_treatment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Symptomatic_treatment">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Adenovirus_infection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Tetracycline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Tetracycline">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Balantidiasis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Brucellosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Campylobacteriosis"/>
+        <ont:treats rdf:resource="http://example.org/resource/Legionellosis_Legionnaires_disease"/>
+        <ont:treats rdf:resource="http://example.org/resource/Murine_typhus_Endemic_typhus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Tetracycline_drugs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Tetracycline_drugs">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Anaplasmosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Tetracyclines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Tetracyclines">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
     </owl:NamedIndividual>
     
 
@@ -8817,6 +9808,71 @@ supportive treatments are used.</ns1:treatmentMethod>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Tooth_pain">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Topical_lidocaine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Topical_lidocaine">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Herpes_simplex"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Trimethoprim-sulfamethoxazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Trimethoprim-sulfamethoxazole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Isosporiasis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Vaccinia_immune_globulin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Vaccinia_immune_globulin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Monkeypox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Valaciclovir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Valaciclovir">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Herpes_simplex"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Valganciclovir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Valganciclovir">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Cytomegalovirus_infection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Vancomycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Vancomycin">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Anthrax"/>
+        <ont:treats rdf:resource="http://example.org/resource/Bacillus_cereus_infection"/>
+        <ont:treats rdf:resource="http://example.org/resource/Clostridium_difficile_colitis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Voriconazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alyssa/ontologies/2024/4/Infectious_Disease_Ontology#Voriconazole">
+        <rdf:type rdf:resource="http://example.org/ontology/dido#Treatment"/>
+        <ont:treats rdf:resource="http://example.org/resource/Aspergillosis"/>
     </owl:NamedIndividual>
     
 
